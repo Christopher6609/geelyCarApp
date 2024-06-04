@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        euclid:["euclid-flex"],
+        nunito:["Nunito+Sans"],
+      }
+    },
   },
   plugins: [],
 }
